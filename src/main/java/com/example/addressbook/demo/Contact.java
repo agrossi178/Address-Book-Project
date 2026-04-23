@@ -57,6 +57,6 @@ public class Contact {
     }
 
     public String getFullName(String fullname){
-        return firstName + lastName;
+        return firstName + " " + lastName;
     }
 }
