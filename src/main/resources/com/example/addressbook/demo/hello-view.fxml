@@ -17,9 +17,6 @@
     <Label>Welcome to the address book application. Before you proceed you must agree to the following terms and conditions</Label>
     <TextArea></TextArea>
     <CheckBox fx:id="checkBox" text="I agree to the terms and conditions" onAction="#onAgreeCheckBoxClick"/>
-    <Button fx:id="cancel" text="Cancel"/>
+    <Button fx:id="cancel" text="Cancel" onAction="#onCancelClick"/>
     <Button fx:id="next" text="Next"/>
-
-
-    <Button text="Hello!" onAction="#onHelloButtonClick"/>
 </VBox>
