@@ -19,9 +19,6 @@ public class HelloController {
     @FXML
     private Button next;
 
-    @FXML
-    private Button cancel;
-
     private boolean accepted;
 
     @FXML
@@ -31,7 +28,7 @@ public class HelloController {
     }
 
     @FXML
-    protected void onCancelClick(ActionEvent event) {
+    protected void onCancelClick() {
         Platform.exit();
     }
 
