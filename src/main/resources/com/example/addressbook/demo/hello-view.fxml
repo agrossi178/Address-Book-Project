@@ -8,6 +8,7 @@
 <?import javafx.scene.control.CheckBox?>
 <?import javafx.scene.control.TextArea?>
 <?import javafx.scene.text.Text?>
+
 <VBox alignment="CENTER" spacing="20.0" xmlns:fx="http://javafx.com/fxml"
       fx:controller="com.example.addressbook.demo.HelloController">
     <padding>
@@ -15,11 +16,8 @@
     </padding>
 
     <Label>Welcome to the address book application. Before you proceed you must agree to the following terms and conditions</Label>
-    <TextArea></TextArea>
+    <TextArea ></TextArea>
     <CheckBox fx:id="checkBox" text="I agree to the terms and conditions" onAction="#onAgreeCheckBoxClick"/>
-    <Button fx:id="cancel" text="Cancel"/>
-    <Button fx:id="next" text="Next"/>
-
-
-    <Button text="Hello!" onAction="#onHelloButtonClick"/>
+    <Button fx:id="cancel" text="Cancel" onAction="#onCancelClick"/>
+    <Button fx:id="next" text="Next" onAction="#onNextButtonClick"/>
 </VBox>
