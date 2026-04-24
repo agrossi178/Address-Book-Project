@@ -56,7 +56,7 @@ public class Contact {
         this.phone = Phone;
     }
 
-    public String getFullName(String fullname){
+    public String getFullName(){
         return firstName + " " + lastName;
     }
 }
